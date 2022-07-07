@@ -1,0 +1,1 @@
+schtasks /query /tn "\Lenovo\Power Manager\Background monitor" /xml | findstr /i "Delay"
