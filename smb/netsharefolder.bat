@@ -1,0 +1,1 @@
+net share StephenTest=C:\Data /remark:"For test"

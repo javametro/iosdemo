@@ -1,0 +1,22 @@
+﻿<Window x:Class="client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label x:Name="prompt" Content="Select the File to Send" HorizontalAlignment="Center"
+               VerticalAlignment="Center"></Label>
+        <TextBox Text="Input" TextAlignment="Center" HorizontalAlignment="Center"></TextBox>
+        <Button x:Name="Browser" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Browser"></Button>
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="Send" Content="Send"></Button>
+            <TextBlock Text="File Transfered..." Margin="20 0 20 0" VerticalAlignment="Center"></TextBlock>
+        </StackPanel>
+        
+
+    </StackPanel>
+</Window>
